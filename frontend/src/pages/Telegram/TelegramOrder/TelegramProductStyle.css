@@ -1,0 +1,52 @@
+.imgContainer {
+    text-align: center;
+    margin: 10px auto;
+    max-width: 160px;
+    min-height: 70px;
+}
+
+.backButton {
+    border: none;
+    border-radius: 100px;
+    background-color: #e7e3e3;
+    width: 70px;
+    height: 30px;
+}
+
+.children {
+    background-color: #f0f3f6;
+}
+
+.products {
+    background-color: whitesmoke;
+}
+
+.productName, .productPrice {
+    font-weight: bold;
+}
+
+.buttonsContainer {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: 1s all ease-in-out;
+    margin: auto;
+}
+
+.img {
+    object-fit: contain;
+}
+
+.topBar {
+    position: sticky;
+    top: 0;
+    /*background: white;*/
+    /*z-index: 100;*/
+}
+
+.orders {
+    max-height: 600px;
+    /*border: 1px solid;*/
+    overflow-y: scroll;
+}

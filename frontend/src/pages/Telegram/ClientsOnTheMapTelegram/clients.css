@@ -1,0 +1,71 @@
+#clientsFatherDiv{
+    display: block;
+    width: 98%;
+    margin: 15px 15px;
+    background-color: white ;
+    text-align: start;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    height: 95%;
+    overflow-y: auto;
+}
+#fatherDivForClients{
+    /*border: 1px solid;*/
+    width: 100%;
+    height: 100%;
+    background-color: #1E2328;
+}
+#headerForClient{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #F5B301;
+    margin-top: 10px;
+}
+#titleForClient{
+    font-size: 30px;
+}
+#saveBtnForClient{
+    display: block;
+    height: 40px;
+    background-color: #F5B301;
+    border: none;
+    padding: 5px 15px;
+    color: white;
+}
+#bigFatherForMap{
+    width: 100%;
+    background-color: #1E2328;
+    padding: 20px 20px;
+}
+#smallFatherForMap{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+#forLoading{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    height: 50vh;
+}
+#titleForMap{
+    font-size: 30px;
+    color: black;
+    border-bottom: 2px solid #F5B301;
+    text-align: start;
+}
+.notificationForMap{
+    cursor: pointer;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}

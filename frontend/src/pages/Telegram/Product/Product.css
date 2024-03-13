@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px dashed blue;
+}
+
+.img1 {
+    border-radius: 50%;
+}
+
+.trash1 {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    background: #c70000;
+    color:  white;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cardcha {
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 5px gray;
+    border-radius: 10px;
+}
+
+.add-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+}
+
+.bordercha {
+    border: 1px solid;
+    display:  flex;
+    justify-content: start;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isFree {
+    font-size: 10px;
+}
+
+.info {
+    position: absolute;
+    color: gray;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    right: 10px;
+}
+
+.rounded {
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.my-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    height: min-content;
+}
+
+h5 {
+    font-size: 95%;
+}

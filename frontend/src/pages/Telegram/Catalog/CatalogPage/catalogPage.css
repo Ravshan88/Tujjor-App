@@ -1,0 +1,20 @@
+.catalogPage {
+    padding: 10px;
+}
+
+.flex-forms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardContainer {
+    flex-wrap:wrap;
+}
+
+.productCard {
+    width: 40%;
+}
+
+.productCard:hover {
+    cursor:pointer;
+}

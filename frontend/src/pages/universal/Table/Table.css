@@ -1,0 +1,85 @@
+.hidden {
+  display: none;
+}
+.universal_table {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 99%;
+  margin: 0 auto;
+}
+.pagination {
+  overflow-x: scroll;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mytable {
+  border: 2px solid black;
+  padding: 10px;
+  /*overflow: scroll !important;*/
+}
+.column_order {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: #fff;
+  border-radius: 8px;
+}
+/* Table styles */
+.table-dark {
+  width: 90%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.table th,
+.table td {
+  /*border: 1px solid #ccc;*/
+  padding: 8px;
+  text-align: left;
+  width: min-content;
+}
+
+.table th {
+  background-color: #F5B301;
+}
+
+/* Style for the data rows */
+.table tbody tr {
+  cursor: pointer;
+}
+
+/* Style for selected rows */
+.table tbody tr.selected {
+  background-color: #a9def9;
+}
+
+/* Style for column resizing handle */
+.react-table-resizable .react-resizable-handle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: transparent;
+  width: 10px;
+  height: 100%;
+  cursor: col-resize;
+}
+tbody tr:hover  td {
+  background-color: #F5B301 !important;
+  transition: 0.3s all;
+}
+.table_responsive {
+  min-height: 300px;
+}
+.table_thead th {
+  background-color: #F5B301 !important;
+}
+.mycc {
+  background-color: black !important;
+  opacity: 1 !important;
+}
+.MuiPagination-ul {
+  padding: 10px !important;
+  border-radius: 8px;
+  background-color: white !important;
+}

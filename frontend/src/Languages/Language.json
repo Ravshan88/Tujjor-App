@@ -1,0 +1,575 @@
+[
+  {
+    "adminPage": {
+      "li1": "Supervisor",
+      "li2": "Sales",
+      "li3": "Cash Register",
+      "li4": "GPS",
+      "onlineHelp": "Online Help",
+      "toDiagnostic": "Diagnostic",
+      "toPlans": "Plans",
+      "toApplication": "Application",
+      "toStock": "Stock",
+      "toClients": "Clients",
+      "toAgents": "Agents",
+      "toReports": "Reports",
+      "toSettings": "Settings",
+      "clientPages": {
+        "page1": "Clients",
+        "page2": "Clients on the map"
+      },
+      "dropDown": {
+        "function1": "Change login & Password",
+        "function2": "Billing",
+        "function3": "Exit"
+      }
+    },
+    "clientPage": {
+      "title": "Clients",
+      "addBtn": "+ Add Client",
+      "notificationTitle": "The new month has arrived! Do you want to move the plans to next month?",
+      "notificationConfirm": "Accept Offer",
+      "filterPlaceholder": {
+        "inp1": "Active",
+        "inp2": "City",
+        "inp3": "Customer_categories",
+        "inp4": "Day",
+        "inp5": "All_weeks",
+        "inp6": "TIN",
+        "inp7": "Location",
+        "inp8": "With Inventory"
+      },
+      "clientOnTheMap": {
+        "title": "Clients On The Map",
+        "allDataBtn": "All Data: ",
+        "activeClientsBtn": "Active Clients: ",
+        "unActiveClientsBtn": "No Active Clients: ",
+        "territoriesBtn": "Territory: "
+      },
+      "modal": {
+        "addTitle": "Add Client",
+        "editeTitle": "Edit Client",
+        "inp1": "Territories*",
+        "inp2": "Name*",
+        "inp3": "Address*",
+        "inp4": "Telephone*",
+        "inp5": "Active: ",
+        "inp6": "Category*",
+        "inp7": "Company name*",
+        "inp8": "Password*"
+      },
+      "plan": {
+        "title": "Plans",
+        "inp1": "Enter the time:",
+        "inp2": "Enter the amount:",
+        "saveBtn": "Save",
+        "clearBtn": "Clear",
+        "noPlans": "No Plans..."
+      }
+    },
+    "settingsPage": {
+      "title": "Settings Panel"
+    },
+    "companyProfile": {
+      "title": "Company Profile"
+    },
+    "customerCategory": {
+      "title": "Customer Category",
+      "addBtn": " Add Category",
+      "modal": {
+        "addTitle": "Add Category",
+        "editeTitle": "Edit Category",
+        "inp1": "Region",
+        "inp2": "Code",
+        "inp3": "Name",
+        "inp4": "Description",
+        "inp5": "Active"
+      }
+    },
+    "territoryPage": {
+      "title": "Territory",
+      "addBtn": " Add Territory",
+      "modal": {
+        "addTitle": "Add territory",
+        "editeTitle": "Edit territory",
+        "inp1": "Title*",
+        "inp2": "Region",
+        "inp3": "Code",
+        "inp4": "Active"
+      }
+    },
+    "currierPage": {
+      "title": "Currier",
+      "addBtn": " Add Currier",
+      "modal": {
+        "addTitle": "Add Currier",
+        "editeTitle": "Edit Currier",
+        "firstName": "FirstName",
+        "lastName": "LastName",
+        "password": "Password",
+        "userName": "UserName",
+        "phone": "Phone",
+        "territory": "Territory",
+        "active": "Active"
+      }
+    },
+    "iconPage": {
+      "title": "Icons",
+      "addBtn": " Add icon",
+      "modal": {
+        "addTitle": "Add Icon",
+        "editeTitle": "Edit Icon",
+        "icon": "Icon",
+        "name": "Name"
+      }
+    },
+    "productPage": {
+      "title": "Products",
+      "addBtn": " Add Product",
+      "modal": {
+        "addTitle": "Add Product",
+        "editeTitle": "Edit Product",
+        "title": "Title",
+        "price": "Price",
+        "count": "Count",
+        "dealer": "Dealer",
+        "company": "Company",
+        "notFree": "Unfree",
+        "free": "Free",
+        "category": "Category"
+      }
+    },
+    "dealerPage": {
+      "title": "Dealer",
+      "addBtn": "Add Dealer",
+      "modal": {
+        "addTitle": "Add dealer",
+        "editeTitle": "Edit dealer",
+        "selectOptions": "Select Options",
+        "fullName": "Full Name*",
+        "address": "Address*",
+        "company": "Company*",
+        "password": "Password*",
+        "ownAgents": "Own Agents*",
+        "partnership": "Partnership*",
+        "agents": "Agents*",
+        "phoneNumber": "Phone Number*"
+      }
+    },
+    "universalModal": {
+      "clear": "Cleaning",
+      "saveBtn": "Save",
+      "note": "Do you agree to delete the data?",
+      "no": "No",
+      "yes": "Yes"
+    },
+    "agentsPage": {
+      "title": "Agents",
+      "addBtn": "Add agent",
+      "modal": {
+        "addTitle": "Add agent*",
+        "editeTitle": "Edit agent*",
+        "userName": "Username*",
+        "phone": "Phone*",
+        "password": "Password*",
+        "ownAgents": "Own Agents",
+        "dealers": "Dealer*",
+        "selectDealers": "Select Dealer"
+      }
+    },
+    "productCategoryPage": {
+      "title": "Product-Category",
+      "addBtn": "Add product-category",
+      "modal": {
+        "addTitle": "Add product-category",
+        "editeTitle": "Edit product-category",
+        "name": "Name"
+      }
+    },
+    "uploadMessage": {
+      "title": "Click or drag file to this area to upload"
+    }
+  },
+  {
+    "uploadMessage": {
+      "title": "Yuklash uchun faylni ushbu hududga bosing yoki torting"
+    },
+    "adminPage": {
+      "li1": "Nazoratchi",
+      "li2": "Sotuvlar",
+      "li3": "Kassa apparati",
+      "li4": "GPS",
+      "onlineHelp": "Onlayn Yordam",
+      "toDiagnostic": "Diagnostika",
+      "toPlans": "Rejalar",
+      "toApplication": "Ilovalar",
+      "toStock": "Savdo",
+      "toClients": "Mijozlar",
+      "toAgents": "Agentlar",
+      "toReports": "Hisobotlar",
+      "toSettings": "Sozlamalar",
+      "clientPages": {
+        "page1": "Mijozlar",
+        "page2": "Xaritadagi mijozlar"
+      },
+      "dropDown": {
+        "function1": "Kirish va Parolni O'zgartirish",
+        "function2": "Hisob-kitob",
+        "function3": "Chiqish"
+      }
+    },
+    "clientPage": {
+      "title": "Mijozlar",
+      "addBtn": "+ Mijoz Qo'shish",
+      "notificationTitle": "Yangi oy keldi! Rejalarni keyingi oyga ko'chirishni xoxlaysizmi?",
+      "notificationConfirm": "Taklifni Qabul Qilish!",
+      "filterPlaceholder": {
+        "inp1": "Faol",
+        "inp2": "Shahar",
+        "inp3": "Mijoz kategoriyalari",
+        "inp4": "Kun",
+        "inp5": "Barcha haftalar",
+        "inp6": "TIN",
+        "inp7": "Manzil",
+        "inp8": "Inventar bilan"
+      },
+      "clientOnTheMap": {
+        "title": "Mijozlar xaritada",
+        "allDataBtn": "Barcha ma'lumotlar: ",
+        "activeClientsBtn": "Faol mijozlar: ",
+        "unActiveClientsBtn": "Faol emas mijozlar: ",
+        "territoriesBtn": "Hudud: "
+      },
+      "modal": {
+        "addTitle": "Mijoz Qo'shish",
+        "editTitle": "Mijozni Tahrirlash",
+        "inp1": "Hududlar*",
+        "inp2": "Ism*",
+        "inp3": "Manzil*",
+        "inp4": "Telefon*",
+        "inp5": "Faol: ",
+        "inp6": "Kategoriya*",
+        "inp7": "Kompaniya nomi*",
+        "inp8": "Parol*"
+      },
+      "plan": {
+        "title": "Rejalar",
+        "inp1": "Vaqt kiriting:",
+        "inp2": "Miqdorni kiriting:",
+        "saveBtn": "Saqlash",
+        "clearBtn": "Tozalash",
+        "noPlans": "Rejalar yo'q..."
+      }
+    },
+    "settingsPage": {
+      "title": "Sozlamalar paneli"
+    },
+    "companyProfile": {
+      "title": "Kompaniya profili"
+    },
+    "customerCategory": {
+      "title": "Mijoz toifasi",
+      "addBtn": " Toifasi qo'shish",
+      "modal": {
+        "addTitle": "Toifa qo'shish",
+        "editeTitle": "Toifani tahrirlash",
+        "inp1": "Mintaqa",
+        "inp2": "Kod",
+        "inp3": "Ism",
+        "inp4": "Tavsif",
+        "inp5": "Faol"
+      }
+    },
+    "territoryPage": {
+      "title": "Hudud",
+      "addBtn": " Hudud qo'shish",
+      "modal": {
+        "addTitle": "Hudud qo'shish",
+        "editeTitle": "Hududni tahrirlash",
+        "inp1": "Sarlavha*",
+        "inp2": "Mintaqa*",
+        "inp3": "Kod*",
+        "inp4": "Faol"
+      }
+    },
+    "productPage": {
+      "title": "Mahsulotlar",
+      "addBtn": " Mahsulot qo`shish",
+      "modal": {
+        "addTitle": "Mahsulot qo`shish",
+        "editeTitle": "Mahsulotni tahrirlash",
+        "title": "Nomi",
+        "price": "Narxi",
+        "count": "Miqdori",
+        "dealer": "Diler",
+        "company": "Kompaniya",
+        "free": "Free",
+        "notFree": "Not free",
+        "category": "Kategoriya"
+      }
+    },
+    "currierPage": {
+      "title": "Kuryer",
+      "addBtn": " Kuryer qo'shish",
+      "modal": {
+        "addTitle": "Kuryer qo'shish",
+        "editeTitle": "Kuryerni tahrirlash",
+        "firstName": "Ism",
+        "lastName": "Familiya",
+        "password": "Parol",
+        "userName": "Foydalanuvchi nomi",
+        "phone": "Telefon raqam",
+        "territory": "Hudud",
+        "active": "Faol"
+      }
+    },
+    "iconPage": {
+      "title": "Belgilar",
+      "addBtn": "Belgi qo`shish",
+      "modal": {
+        "addTitle": "Belgi qo`shish",
+        "editeTitle": "Belgini tahrirlash",
+        "icon": "Belgi",
+        "name": "Nomi"
+      }
+    },
+    "universalModal": {
+      "clear": "Tozalash",
+      "saveBtn": "Saqlash",
+      "note": "Ma'lumotlar o'chib ketishiga rozimisiz?",
+      "no": "Yo'q",
+      "yes": "Ha"
+    },
+    "agentsPage": {
+      "title": "Agentlar",
+      "addBtn": "Agent qo'shish",
+      "modal": {
+        "addTitle": "Agent qo'shish*",
+        "editeTitle": "Agentni tahrirlash*",
+        "userName": "Foydalanuvchi nomi*",
+        "phone": "Telefon*",
+        "password": "Parol*",
+        "ownAgents": "Shaxsiy Agentlar",
+        "dealers": "Diller*",
+        "selectDealers":  "Dillerni tanlang"
+      }
+    },
+    "dealerPage": {
+      "title": "Diller",
+      "addBtn": "Dillerni qo'shish",
+      "modal": {
+        "addTitle": "Dillerni qo'shish",
+        "editeTitle": "Dillerni o'zgartirish",
+        "selectOptions": "Agent(lar)ni tanlang",
+        "fullName": "To'liq Ismi*",
+        "address": "Manzil*",
+        "company": "Kompaniya*",
+        "password": "Parol*",
+        "ownAgents": "Shaxsiy Agentlar*",
+        "partnership": "Hamkorlik*",
+        "agents": "Agentlar*",
+        "phoneNumber": "Telefon Raqami*"
+      }
+    },
+    "productCategoryPage": {
+      "title": "Mahsulot Toifasi",
+      "addBtn": "Mahsulot toifasi qo`shish",
+      "modal": {
+        "addTitle": "Mahsulot toifasi qo`shish",
+        "editeTitle": "Mahsulot toifasini tahrirlash",
+        "name": "Nomi"
+      }
+    }
+  },
+  {
+    "uploadMessage": {
+      "title": "Нажмите или перетащите файл в эту область, чтобы загрузить"
+    },
+    "adminPage": {
+      "li1": "Руководитель",
+      "li2": "Продажи",
+      "li3": "Кассовый аппарат",
+      "li4": "GPS",
+      "onlineHelp": "Онлайн помощь",
+      "toDiagnostic": "Диагностика",
+      "toPlans": "Планы",
+      "toApplication": "Приложения",
+      "toStock": "Склад",
+      "toClients": "Клиенты",
+      "toAgents": "Агенты",
+      "toReports": "Отчеты",
+      "toSettings": "Настройки",
+      "clientPages": {
+        "page1": "Клиенты",
+        "page2": "Клиенты на карте"
+      },
+      "dropDown": {
+        "function1": "Изменить логин и пароль",
+        "function2": "Биллинг",
+        "function3": "Выход"
+      }
+    },
+    "clientPage": {
+      "title": "Клиенты",
+      "addBtn": "+ Добавить клиента",
+      "notificationTitle": "Новый месяц наступил! Хотите перенести планы на следующий месяц?",
+      "notificationConfirm": "Принят запроса!",
+      "filterPlaceholder": {
+        "inp1": "Активный",
+        "inp2": "Город",
+        "inp3": "Категории клиентов",
+        "inp4": "День",
+        "inp5": "Все недели",
+        "inp6": "ИНН",
+        "inp7": "Расположение",
+        "inp8": "С инвентарем"
+      },
+      "clientOnTheMap": {
+        "title": "Клиенты на карте",
+        "allDataBtn": "Вся информация: ",
+        "activeClientsBtn": "Активные клиенты: ",
+        "unActiveClientsBtn": "Неактивные клиенты: ",
+        "territoriesBtn": "Территория: "
+      },
+      "modal": {
+        "addTitle": "Добавить клиента",
+        "editTitle": "Редактировать клиента",
+        "inp1": "территории*",
+        "inp2": "Имя*",
+        "inp3": "Адрес*",
+        "inp4": "Телефон*",
+        "inp5": "Активный: ",
+        "inp6": "Категория*",
+        "inp7": "Название компании*",
+        "inp8": "Пароль*"
+      },
+      "plan": {
+        "title": "Планы",
+        "inp1": "Введите время:",
+        "inp2": "Введите сумму:",
+        "saveBtn": "Сохранить",
+        "clearBtn": "Очистить",
+        "noPlans": "Нет планов..."
+      }
+    },
+    "settingsPage": {
+      "title": "Панель настроек"
+    },
+    "companyProfile": {
+      "title": "Профиль компании"
+    },
+    "customerCategory": {
+      "title": "Категория клиента",
+      "addBtn": " Добавить категорию",
+      "modal": {
+        "addTitle": "Добавить категорию",
+        "editeTitle": "Редактировать категорию",
+        "inp1": "Область",
+        "inp2": "Код",
+        "inp3": "Имя",
+        "inp4": "Описание",
+        "inp5": "Активный"
+      }
+    },
+    "territoryPage": {
+      "title": "Территория",
+      "addBtn": " Добавить территорию",
+      "modal": {
+        "addTitle": "Добавить территорию",
+        "editeTitle": "Редактировать территорию",
+        "inp1": "Глава*",
+        "inp2": "Область",
+        "inp3": "Код",
+        "inp4": "Активны"
+      }
+    },
+    "productPage": {
+      "title": "Продукты",
+      "addBtn": "Добавить товар",
+      "modal": {
+        "addTitle": "Добавить товар",
+        "editeTitle": "Редактировать товар",
+        "title": "Название",
+        "price": "Цена",
+        "count": "Подсчет",
+        "company": "Компания",
+        "dealer": "Дилер",
+        "free": "Несвободный",
+        "notFree": "Свободный",
+        "category": "Категория"
+      }
+    },
+    "currierPage": {
+      "title": "Курьер",
+      "addBtn": " Добавить курьер",
+      "modal": {
+        "addTitle": "Добавить курьер",
+        "editeTitle": "Редактировать курьера",
+        "firstName": "Имя",
+        "lastName": "Фамилия",
+        "password": "Парол",
+        "userName": "Имя пользователя",
+        "phone": "Телефон",
+        "territory": "Территория",
+        "active": "Активный"
+      }
+    },
+    "iconPage": {
+      "title": "Иконки",
+      "addBtn": "Добавить значок",
+      "modal": {
+        "addTitle": "Добавить значок",
+        "editeTitle": "Изменить значок",
+        "icon": "значок",
+        "name": "Имя"
+      }
+    },
+    "universalModal": {
+      "clear": "Очистка",
+      "saveBtn": "Сохранять",
+      "note": "Вы согласны удалить данные?",
+      "no": "Нет",
+      "yes": "Да"
+    },
+    "agentsPage": {
+      "title": "Агенты",
+      "addBtn": "Добавить агента",
+      "modal": {
+        "addTitle": "Добавить агента*",
+        "editeTitle": "Редактировать агента*",
+        "userName": "Имя пользователя*",
+        "phone": "телефон*",
+        "password": "Пароль*",
+        "ownAgents": "Личные Агенты",
+        "dealers": "Дилер*",
+        "selectDealers":  "Быбрать Дилера"
+      }
+    },
+    "dealerPage": {
+      "title": "Дилер",
+      "addBtn": "Добавить Дилера",
+      "modal": {
+        "addTitle": "Добавить Дилера",
+        "editeTitle": "Изменить Дилера",
+        "selectOptions": "Выбрать Диллер(ов)а",
+        "fullName": "Полное Имя*",
+        "address": "Адрес*",
+        "company": "Компания*",
+        "password": "Пароль*",
+        "ownAgents": "Личные Агенты*",
+        "partnership": "Партнерство*",
+        "agents": "Агенты*",
+        "phoneNumber": "Номер Телефона*"
+      }
+    },
+    "productCategoryPage": {
+      "title": "Категория продукта",
+      "addBtn": "Добавить категорию продукта",
+      "modal": {
+        "addTitle": "Добавить категорию продукта",
+        "editeTitle": "Редактировать категорию продукта",
+        "name": "Имя"
+      }
+    }
+  }
+]

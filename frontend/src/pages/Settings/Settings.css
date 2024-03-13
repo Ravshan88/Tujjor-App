@@ -1,0 +1,86 @@
+.settings_button {
+  width: 228px;
+  height: 36px;
+  border: none;
+  background: #F5B301;
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin: 0px 6px 6px;
+  color: #fff;
+  font-size: 12px;
+  text-align: start;
+}
+.settings_button span {
+  font-size: 17px;
+}
+.settings_button:hover {
+  background-color: #1E2328 ;
+}
+.active_button {
+  background: #1E2328 !important;
+  opacity: 1;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 238px;
+}
+.settings {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  background: #1E2328;
+}
+.settings .content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  gap: 10px; 
+  padding: 10px;
+  background: #eee;
+}
+.right {
+  /*border: 1px solid red;*/
+  display: flex;
+  width: 80%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: auto;
+}
+.btn_panel {
+  width: 228px;
+  height: 36px;
+  border: none;
+  background: #f2994b;
+  padding: 6px 12px;
+  margin: 0px 6px 6px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.custom_btn_success {
+  background-color: #f2994b;
+  height: 100%;
+  border: none;
+}
+.custom_btn_success svg {
+  width: 25px !important;
+}
+
+#headerForSetting{
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 0 10px;
+}
+#titleForSetting{
+  /*font-size: 30px;*/
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+}
+#titleForSetting p{
+  font-size: 25px;
+}

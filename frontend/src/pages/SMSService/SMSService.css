@@ -1,0 +1,304 @@
+.sms-service {
+  width: 100%;
+  padding: 10px;
+}
+.sms-service-content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  @media (max-width: 500px) {
+    padding: 10px;
+    padding-left: 0;
+  }
+}
+.left_area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  @media (max-width:500px) {
+    width: 100%;
+  }
+}
+.left_area textarea {
+  padding: 10px;
+  border-radius: 14px;
+}
+.right_area {
+  width: 400px;
+  min-height: 400px;
+  z-index: 999999;
+  position: fixed;
+  top: 13vh;
+  background-color: white;
+  right: -105vh;
+  transition: 0.4s all;
+  border-radius: 18px;
+  padding: 10px;
+  @media (max-width: 500px) {
+    width: 330px;
+  }
+}
+.right_area .right_area_exit {
+  border: none;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 20px;
+  background-color: #f5b301;
+  color: #18212c;
+  border-radius: 50%;
+}
+.show_area {
+  right: 0% !important;
+}
+.right_area_open_banner {
+  position: fixed;
+  right: -100%;
+  transition: 0.5s all;
+  top: 30vh;
+  width: 150px;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  box-shadow: 4px 4px 23px -3px rgba(34, 60, 80, 0.2);
+}
+.show_banner {
+  right: 0% !important;
+}
+.right_area_open_banner button {
+  border: none;
+  border-radius: 18px;
+  background-color: #f5b301;
+  color: white;
+  padding: 10px;
+}
+.right_area_content {
+  border: 2px solid black;
+  height: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+.right_title {
+  color: black;
+  font-size: 28px;
+  border-bottom: 2px solid rgb(30, 35, 40);
+}
+.sms-service-input {
+  width: 300px;
+  height: 34px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 8px;
+  padding-left: 12px;
+}
+.sms_content {
+  background: #18212c;
+  width: 100%;
+  min-height: 300px;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+  padding-top: 40px;
+  align-items: flex-end;
+  position: relative;
+}
+.sms_content_image {
+  position: absolute;
+  top: 2px;
+  height: 40px;
+  width: 100%;
+  object-fit: cover;
+  object-position: left;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  right: 0;
+}
+.sms img {
+  width: 200px;
+  object-fit: cover;
+}
+.sms .custom_btn {
+  margin-top: 20px;
+  margin-left: 500px;
+}
+
+.sms_loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sms {
+  border-radius: 20px;
+  width: 300px;
+  min-width: 100px; /* Set a minimum width if needed */
+  max-width: 600px; /* Set a maximum width if needed */
+  position: relative;
+  background-color: #3d6a97;
+  padding: 10px;
+  height: auto;
+  resize: horizontal;
+  overflow: auto; /* Add overflow property to handle content overflow */
+}
+
+.sms p {
+  margin: 0;
+  width: 100%;
+  display: inline-block;
+  color: white;
+  text-align: left;
+}
+.sms-send-title {
+  font-weight: bold;
+}
+.sms-video-photo-select {
+  width: 350px;
+  height: 150px;
+  background-color: #f5b301;
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  border-radius: 20px;
+  align-items: center;
+  @media (max-width: 500px) {
+    width: 250px;
+    height: 100px;
+  }
+}
+.sms-video-photo-select .custom_icon {
+  font-size: 5rem !important;
+  transition: 0.4s all ease-in-out;
+  padding: 10px;
+  color: rgb(30, 35, 40) !important;
+  width: 50%;
+  height: 100%;
+  @media (max-width: 500px) {
+    font-size: 3.5rem !important;
+  }
+}
+.sms-video-photo-select .custom_icon:hover {
+  transform: scale(1.1);
+}
+.sms-video-photo-select::before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 100%;
+  width: 2px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sms-service-filters {
+  width: 520px;
+  padding: 10px 0;
+  @media (max-width: 500px) {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.small_textarea {
+  display: none;
+  @media (max-width: 500px) {
+    display: block;
+  }
+}
+.sms-service-content .workspace_area {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.hints {
+  width: 100%;
+  padding: 20px;
+  @media (max-width: 500px) {
+    padding: 0;
+  }
+}
+.hint {
+  width: 100%;
+  border-radius: 8px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #f5b301;
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.hint_title {
+  color: #f5b301;
+  font-weight: bold;
+  text-align: left;
+}
+.hint_content {
+  text-align: left;
+  padding: 20px;
+  height: 200px;
+  background-color: white;
+}
+.big_textarea {
+  @media (max-width: 500px) {
+    display: none;
+  }
+}
+.hint_content_title {
+  color: #18212c;
+  font-size: 30px;
+  @media (max-width: 500px) {
+    font-size: 25px;
+  }
+}
+.hint_content_title i {
+  margin-right: 5px;
+}
+
+.hint_content_area .hint_item {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  @media (max-width: 500px) {
+    width: 80%;
+  }
+}
+.hint_item span:first-child {
+  color: #f5b301;
+  font-weight: bolder;
+}
+.hint_content .big_area {
+  background-color: #d9edf6;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.sms_custom_btn {
+  border: none;
+  background-color: #f5b301;
+  padding: 7px;
+  border-radius: 10px;
+}
+.sms_custom_btn_div {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}

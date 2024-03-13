@@ -1,0 +1,22 @@
+.inputFile {
+    min-height: 70%;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.1s ease-in-out;
+
+}
+
+.inputFile:hover {
+    border: 1px dashed #007BFF !important;
+}
+
+.imageContainer {
+    border: 1px solid #c7c4c4;
+    padding: 10px;
+    /*background-color: #efeded;*/
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 250px;
+    min-height: 180px;
+}

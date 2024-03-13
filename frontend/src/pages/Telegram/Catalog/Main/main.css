@@ -1,0 +1,13 @@
+.main-container {
+    padding: 10px;
+}
+
+.flex-save-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.catalogs-container {
+    padding: 10px 0;
+}

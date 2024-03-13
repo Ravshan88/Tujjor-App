@@ -1,0 +1,10 @@
+
+
+.topImg{
+    width:100px;
+    height: 100px
+}
+.blur-image {
+    filter: blur(5px);
+}
+
